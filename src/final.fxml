@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#color" onMouseExited="#color" prefHeight="335.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="maincontroller">
+   <children>
+      <ImageView fx:id="imageview" fitHeight="390.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@background.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="start" layoutX="140.0" layoutY="234.0" mnemonicParsing="false" onAction="#onStarPressed" text="開始遊戲" />
+      <Button fx:id="exit" layoutX="405.0" layoutY="234.0" mnemonicParsing="false" onAction="#onExitPressed" text="離開遊戲" />
+      <Text fx:id="text" layoutX="200.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="西洋棋" wrappingWidth="268.524658203125">
+         <font>
+            <Font size="67.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
